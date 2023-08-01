@@ -1,0 +1,29 @@
+    1  mkdir git-majonez
+    2  cd git-majonez/
+    3  git init
+    4  touch main.cpp
+    5  code main.cpp
+    6  git add main.cpp
+    7  git commit -m"Initial commit"
+    8  code main.cpp
+    9  git add main.cpp
+   10  git commit -m"Farewell changed"
+   11  git remote add origin https://github.com/JacekPretki/git-majonez.git
+   12  git push -u origin main
+   13  git checkout -b cs
+   14  reset --soft HEAD~1
+   15  git reset --soft HEAD~1
+   16  code main.cpp
+   17  git add main.cpp
+   18  git commit -m"Greetings"
+   19  git push origin cs
+   20  git checkout main
+   21  git branch
+   22  git merge cs
+   23  code main.cpp
+   24  git add main.cpp
+   25  git status
+   26  git commit
+   27  git log
+   28  git branch
+   29  history > history.txt
